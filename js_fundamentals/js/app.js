@@ -7,7 +7,7 @@
 // -create a function to make an array of students whose names start with a specific string
 
 
-//comment out the log statements to print out 
+// //////////////////// comment out the log statements to print out /////////////////////////////////////////// 
 
 
 // 1 part 
@@ -113,25 +113,25 @@ function startsWithString(array,string){
 
 
 
-// var student_avg= avg(students);
+var student_avg= avg(students);
 // console.log(student_avg);
 
 
-// var passed_students= passing_students(students);
+var passed_students= passing_students(students);
 // console.log(passed_students);
-// var passed_withfilter = students.filter(checkgrade);
+var passed_withfilter = students.filter(checkgrade);
 // console.log(passed_withfilter);
 
 
 // console.log("the number of passing students: " + passed_students.length);
 
-// var number_failing_students=students.length - passed_students.length;
+var number_failing_students=students.length - passed_students.length;
 
 // console.log("the number of failing students: " + number_failing_students);
 
 
 
-// var students_startwith_ra = startsWithString(students,"ra");
+var students_startwith_ra = startsWithString(students,"ra");
 // console.log(students_startwith_ra);
 
 
