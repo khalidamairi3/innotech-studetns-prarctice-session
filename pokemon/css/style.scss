@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+}
+#pokemons{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+img{
+    width: 250px;
+    height: 25vh;
+    object-fit: cover;
+    display: block;
+}
+
+#war{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}

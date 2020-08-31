@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+#pokemons {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  width: 250px;
+  height: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+#war {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
