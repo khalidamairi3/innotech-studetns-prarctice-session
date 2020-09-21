@@ -1,31 +1,32 @@
 <template>
-<div id="wishlist">
- <h1> this is the wish list </h1>
-   <course-item v-for = " course in courses " :key=" course.price " :course= course :iswishlist= "true"  />
-
-</div>
-    
+  <div id="wishlist">
+    <h1>this is the wish list</h1>
+    <course-item
+      v-for=" course in courses "
+      :key=" course.price "
+      :course="course"
+      :iswishlist="true"
+    />
+  </div>
 </template>
 
 <script>
-import courseItem from './course.vue' 
+import courseItem from "./course.vue";
 export default {
-    name:"wish-list",
-    components:{
-        courseItem
-    },
-    data:function(){
-        return {
-            courses : this.$store.state.wishCourses
-        }
+  name: "wish-list",
+  components: {
+    courseItem
+  },
+  computed: {
+    courses: function() {
+      return this.$store.state.wishCourses;
     }
-}
+  }
+};
 </script>
 
 <style scoped>
-
-#wishlist{
-    border: 1px solid black;
+#wishlist {
+  border: 1px solid black;
 }
-
 </style>

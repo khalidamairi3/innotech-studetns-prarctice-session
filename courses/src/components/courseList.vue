@@ -16,11 +16,11 @@ export default {
         courseItem
     },
 
-    data:function(){
-        return {
-            courses : this.$store.state.courses
-        }
-    }
+    computed:{
+        courses:function(){
+        return this.$store.state.courses;
+        
+    }}
 }
 </script>
 
